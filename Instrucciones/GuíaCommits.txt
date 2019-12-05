@@ -1,0 +1,7 @@
+<----------Proyecto Sistema de Etiquetas Laravel 5.5 y Vuejs---------->
+Commit - Crear y configurar el proyecto
+  -Instalación del proyecto
+    -composer create-project --prefer-dist laravel/laravel sistema_etiquetas-laravel55 "5.5.*"
+  -Creación de la carpeta Instrucciones
+    -Creación del archivo GuíaCommits.txt
+  -Edición del archivo readme.md
