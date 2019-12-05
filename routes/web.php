@@ -11,6 +11,27 @@
 |
 */
 
+/* Ruta por defecto */
+use App\Post;
 Route::get('/', function () {
-    return view('welcome');
+    
+    /* Ejercicio 1 */
+        // $post = Post::create( [
+        //     'title' => 'Tutorial',
+        //     'body'  => 'Contenido',
+        // ] );
+
+        // dd($post);
+
+    /* Ejercicio 2 */
+        // $post = Post::find(1);
+        // $post->tag( ['php', 'laravel'] );
+
+        // dd($post->tags);
+
+    /* Ejercicio 3 */
+        $post = Post::find(4);
+        $post->tag( ['php'] );
+
+        dd($post->tags);
 });

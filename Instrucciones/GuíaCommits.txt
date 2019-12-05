@@ -28,3 +28,6 @@ Commit - Bases (instalación y configuración)
     -Se crean los archivos del paquete
   -Comando para integrar las migraciones a la base de datos
     -php artisan migrate
+Commit - Conociendo el sistema de etiquetas
+  -Edición del modelo Post
+  -Edición del archivo de rutas web.php
