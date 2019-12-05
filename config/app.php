@@ -177,6 +177,9 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+        /* Componente para las etiquetas */ 
+        Conner\Tagging\Providers\TaggingServiceProvider::class,
+
     ],
 
     /*

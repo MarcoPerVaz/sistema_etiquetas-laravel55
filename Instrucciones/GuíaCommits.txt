@@ -5,3 +5,26 @@ Commit - Crear y configurar el proyecto
   -Creación de la carpeta Instrucciones
     -Creación del archivo GuíaCommits.txt
   -Edición del archivo readme.md
+Commit - Bases (instalación y configuración)
+  -Instalación de componente para etiquetas versión 2.2
+    -composer require rtconner/laravel-tagging "^2.2"
+  -Edición del archivo .env
+    -DB_DATABASE=sistema_etiquetas-laravel55
+    -DB_USERNAME=root
+    -DB_PASSWORD=
+  -Creación de la base de datos en HeidiSQL (Laragon)
+  -Creación del modelo Post
+    -php artisan make:model Post -mc
+      -Modelo junto a la migración y controlador
+    -Edición de la migración create_posts_table
+  -Edición de la migración create_password_resets_table
+    -Edición de la migración create_users_table
+  -Edición del archivo config/app.php
+    -Se registra el provider para el componente de etiquetas
+      -Conner\Tagging\Providers\TaggingServiceProvider::class,
+  -Comando para publicar o descompilar los archivos del componente para las etiquetas
+    -php artisan vendor:publish
+    -Luego se presiona 1 para elegir el componente de etiquetas
+    -Se crean los archivos del paquete
+  -Comando para integrar las migraciones a la base de datos
+    -php artisan migrate
