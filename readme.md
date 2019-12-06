@@ -1,4 +1,4 @@
-<h1 align="center">Instalación | Sistema de Etiquetas con Laravel 5.5 y Vuejs</h1>
+<h1 align="center">Instalación | Sistema de Etiquetas con Laravel 5.5</h1>
 
 # Pasos
 

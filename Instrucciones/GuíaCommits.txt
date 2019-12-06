@@ -1,4 +1,4 @@
-<----------Proyecto Sistema de Etiquetas Laravel 5.5 y Vuejs---------->
+<----------Proyecto Sistema de Etiquetas Laravel 5.5---------->
 Commit - Crear y configurar el proyecto
   -Instalación del proyecto
     -composer create-project --prefer-dist laravel/laravel sistema_etiquetas-laravel55 "5.5.*"
@@ -31,3 +31,9 @@ Commit - Bases (instalación y configuración)
 Commit - Conociendo el sistema de etiquetas
   -Edición del modelo Post
   -Edición del archivo de rutas web.php
+Commit - Función de eliminar y destacar etiquetas
+  Error: Se corrigió el título del proyecto ya que no es con Vuejs
+    -Edición del archivo GuíaCommits.txt
+    -Edición del archivo readme.md
+  -Edición del archivo de rutas web.php
+    Nota: Se practicó con la librería de tags
