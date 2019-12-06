@@ -62,7 +62,26 @@ Route::get('/', function () {
         // dd($tag);
 
         /* Obtener los campos con el valor de true en el campo suggest */
-        $tags = Tag::suggested()->get();
+        // $tags = Tag::suggested()->get();
 
-        dd($tags);
+        // dd($tags);
+
+        /* Ejercicio 7 - Asignar la etiqueta con el id 3 al grupo Backend*/
+        // $tag = Tag::find( 3 );
+        // $tag->setGroup( 'Backend' );
+
+        // dd($tag);
+
+        /* Ejercicio 8 - Asignar la etiqueta con el id 4 al grupo Backend*/
+        // $tag = Tag::find( 4 );
+        // $tag->setGroup( 'Backend' );
+
+        // dd($tag);
+        /* Ejercicio 8 - Asignar la etiqueta con el id 5 y 6 al grupo Frontend*/
+        $tag1 = Tag::find( 5 );
+        $tag2 = Tag::find( 6 );
+        $tag1->setGroup( 'Frontend' );
+        $tag2->setGroup( 'Frontend' );
+
+        // dd($tag);
 });

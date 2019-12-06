@@ -37,3 +37,8 @@ Commit - Función de eliminar y destacar etiquetas
     -Edición del archivo readme.md
   -Edición del archivo de rutas web.php
     Nota: Se practicó con la librería de tags
+Commit - Segmentar etiquetas por grupo
+  -Comando para crear un grupo de etiquetas
+    -php artisan tagging:create-group Backend
+    -php artisan tagging:create-group Frontend
+  -Edición del archivo de rutas web.php
