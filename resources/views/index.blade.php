@@ -18,8 +18,23 @@
             <div class="row">
                 <div class="col-xs-8 col-xs-offset-2">
                     <h1 class="page-header">Tutorial de Tags (Sistema de etiquetas)</h1>
-                    errores
-                    <br>
+                    
+                    @if ( session('info') )
+                        <div class="alert alert-success">
+                            {{ session( 'info' ) }}
+                        </div>
+                    @endif   
+
+                    @if ( count($errors) )
+                        <div class="alert alert-success">
+                            <ul>
+                                @foreach ($errors->all() as $error)
+                                    <li>{{ $error }}</li>
+                                @endforeach
+                            </ul>
+                        </div>
+                    @endif    
+                
                     <form method="POST" action="{{ route('posts.store') }}">
                         {{ csrf_field() }}
                         <div class="form-group">

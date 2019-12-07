@@ -68,3 +68,9 @@ Commit - Guardar Post y etiquetas
     -Edición de la función store()
   Error: Se corrigieron errores en la vista index.blade.php (formulario)
     -Edición de la vista index.blade.php
+Commit - Validación y mensaje informativo
+  -Edición de la vista index.blade.php
+  -Creación y edición del form request PostRequest para la validación
+    -php artisan make:request FormRequest
+  -Edición del controlador PostController
+<----------Fin---------->

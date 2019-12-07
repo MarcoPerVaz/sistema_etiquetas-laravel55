@@ -2,8 +2,8 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
 // Importado
+use App\Http\Requests\PostRequest;
 use App\Post;
 
 class PostController extends Controller
@@ -23,7 +23,7 @@ class PostController extends Controller
     /**
      * Función que almacena las etiquetas
      */
-    public function store( Request $request )
+    public function store( PostRequest $request )
     {
         $tags = explode( ',', $request->tags );
         
