@@ -1,4 +1,4 @@
-<----------Proyecto Sistema de Etiquetas Laravel 5.5---------->
+<----------Introducción Proyecto Sistema de Etiquetas Laravel 5.5---------->
 Commit - Crear y configurar el proyecto
   -Instalación del proyecto
     -composer create-project --prefer-dist laravel/laravel sistema_etiquetas-laravel55 "5.5.*"
@@ -42,3 +42,14 @@ Commit - Segmentar etiquetas por grupo
     -php artisan tagging:create-group Backend
     -php artisan tagging:create-group Frontend
   -Edición del archivo de rutas web.php
+<----------Proyecto Sistema de Etiquetas Laravel 5.5---------->
+Commit - Rutas, controlador y vista index
+  -Edición del archivo de rutas web.php
+  -Edición del controlador PostController
+    -Creación y edición de la función index()
+    -Creación de la función store()
+    Nota: Importar el modelo Post
+      -use App\Post;
+  -Edición de la vista welcome.blade.php
+    -Se cambia el nombre por index.blade.php
+    -Edición de la vista index.blade.php
