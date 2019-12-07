@@ -20,7 +20,24 @@
                     <h1 class="page-header">Tutorial de Tags (Sistema de etiquetas)</h1>
                     errores
                     <br>
-                    formulario
+                    <form method="POST" action="{{ route('posts.store') }}">
+                        {{ csrf_field() }}
+                        <div class="form-group">
+                            <label for="title">Título</label>
+                            <textarea name="body" class="form-control" rows="7"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="title">Contenido</label>
+                            <input type="text" name="title" class="form-control">
+                        </div>
+                        <div class="form-group well">
+                            <label for="tags">Etiquetas (palabras separadas por coma)</label>
+                            <input type="text" name="tags" data-role="tagsinput" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" value="Guardar" class="btn btn-primary">
+                        </div>
+                    </form>
                     <hr>
                     @foreach ($posts as $post)
                         <div class="panel panel-primary">

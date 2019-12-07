@@ -61,3 +61,5 @@ Commit - Vista index e instalación de Bootstrap4 tags Input
       -https://cdnjs.com/libraries/bootstrap-tagsinput
     -CDN Jquery 3.3.1
       -https://cdnjs.com/libraries/jquery/3.3.1
+Commit - Formulario y campo de etiquetas
+  -Edición de la vista index.blade.php
