@@ -63,3 +63,8 @@ Commit - Vista index e instalación de Bootstrap4 tags Input
       -https://cdnjs.com/libraries/jquery/3.3.1
 Commit - Formulario y campo de etiquetas
   -Edición de la vista index.blade.php
+Commit - Guardar Post y etiquetas
+  -Edición del controlador PostController
+    -Edición de la función store()
+  Error: Se corrigieron errores en la vista index.blade.php (formulario)
+    -Edición de la vista index.blade.php

@@ -23,8 +23,14 @@ class PostController extends Controller
     /**
      * Función que almacena las etiquetas
      */
-    public function store()
+    public function store( Request $request )
     {
-        // Guardar
+        $tags = explode( ',', $request->tags );
+        
+        $post = Post::create( $request->all() );
+
+        $post->tag( $tags );
+
+        return back()->with( 'info', 'Post creado con éxito' );
     }
 }

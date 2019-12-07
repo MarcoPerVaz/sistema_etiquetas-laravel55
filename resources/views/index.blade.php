@@ -24,11 +24,11 @@
                         {{ csrf_field() }}
                         <div class="form-group">
                             <label for="title">Título</label>
-                            <textarea name="body" class="form-control" rows="7"></textarea>
+                            <input type="text" name="title" class="form-control">
                         </div>
                         <div class="form-group">
-                            <label for="title">Contenido</label>
-                            <input type="text" name="title" class="form-control">
+                            <label for="body">Contenido</label>
+                            <textarea type="text" name="body" rows="7" class="form-control"></textarea>
                         </div>
                         <div class="form-group well">
                             <label for="tags">Etiquetas (palabras separadas por coma)</label>
