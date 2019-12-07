@@ -53,3 +53,11 @@ Commit - Rutas, controlador y vista index
   -Edición de la vista welcome.blade.php
     -Se cambia el nombre por index.blade.php
     -Edición de la vista index.blade.php
+Commit - Vista index e instalación de Bootstrap4 tags Input
+  -Edición de la vista index.blade.php
+    -CDN de Bootstarp 3.3.7
+      -https://cdnjs.com/libraries/twitter-bootstrap/3.3.7
+    -CDN Twitter-Bootstrap Input Tags
+      -https://cdnjs.com/libraries/bootstrap-tagsinput
+    -CDN Jquery 3.3.1
+      -https://cdnjs.com/libraries/jquery/3.3.1
